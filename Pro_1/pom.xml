@@ -28,6 +28,37 @@
        <artifactId>mysql-connector-java</artifactId>
        <version>5.1.10</version>
     </dependency>
+    
+      <dependency>
+       <groupId>gropoi</groupId>
+       <artifactId>artpoi</artifactId>
+       <version>1.0.0</version>
+       <scope>system</scope>
+       <systemPath>${project.basedir}/lib/poi-3.8-20120326.jar</systemPath>
+    </dependency>
 
+	<dependency>
+       <groupId>gropoi</groupId>
+       <artifactId>artpoi</artifactId>
+       <version>1.0.0</version>
+       <scope>system</scope>
+       <systemPath>${project.basedir}/lib/poi-3.8-20120326.jar</systemPath>
+    </dependency>
+    
+    <dependency>
+       <groupId>gropoioo</groupId>
+       <artifactId>artpoioo</artifactId>
+       <version>1.0.0</version>
+       <scope>system</scope>
+       <systemPath>${project.basedir}/lib/poi-ooxml-3.8-20120326.jar</systemPath>
+    </dependency>
+    
+    <dependency>
+       <groupId>gropoisch</groupId>
+       <artifactId>artpoisch</artifactId>
+       <version>1.0.0</version>
+       <scope>system</scope>
+       <systemPath>${project.basedir}/lib/poi-ooxml-schemas-3.8-20120326.jar</systemPath>
+    </dependency>
   </dependencies>
 </project>
